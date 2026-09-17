@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Header(){return <header className="topbar"><div className="container nav"><Link className="logo" href="/">🛍️ <b>متجرك</b></Link><nav className="links"><Link href="/">الرئيسية</Link><Link href="/products">المنتجات</Link><Link href="/categories">الأقسام</Link><Link href="/offers">العروض والتخفيضات</Link><Link href="/about">من نحن</Link><Link href="/contact">تواصل معنا</Link></nav><div className="icons"><span>🔍</span><Link href="/account/purchases">🛒</Link><Link href="/auth">👤</Link></div></div></header>}

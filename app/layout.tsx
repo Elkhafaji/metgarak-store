@@ -1,1 +1,0 @@
-import './globals.css'; export const metadata={title:'متجرك | متجر إلكتروني عربي',description:'متجر إلكتروني عربي متكامل'}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="ar" dir="rtl"><body>{children}</body></html>}
